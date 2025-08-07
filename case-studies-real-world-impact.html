@@ -209,5 +209,82 @@
             <a href="index.html" class="home-link">← Back to Home</a>
         </div>
     </div>
+
+    
+<p>Tracking the shift from single-modal pilots to production-grade multimodal deployments.</p>
+
+<h2 id="toc_1">Market Signals</h2>
+
+<table>
+<thead>
+<tr>
+<th>What’s moving</th>
+<th>Why it matters</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>Budgets surge</strong></td>
+<td>88 % of U.S. execs plan to raise AI spend in the next 12 months, with agentic / multimodal workstreams topping the list (PwC AI Agent Survey, May 2025). <a href="https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-agent-survey.html">https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-agent-survey.html</a></td>
+</tr>
+<tr>
+<td><strong>Regulatory guard-rails</strong></td>
+<td>OMB memo <em>M-25-21</em> classifies “high-impact AI,” mandating impact assessments, continuous monitoring, and named Chief AI Officers. <a href="https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf">https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf</a></td>
+</tr>
+<tr>
+<td><strong>Infra catch-up</strong></td>
+<td>Databricks <strong>Serverless GPU Compute</strong> (beta, Jun 2025) removes cluster overhead for vision + LLM jobs. <a href="https://docs.databricks.com/aws/pt/release-notes/product/2025/june#serverless-gpu-compute-is-in-beta">https://docs.databricks.com/aws/pt/release-notes/product/2025/june#serverless-gpu-compute-is-in-beta</a></td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h2 id="toc_2">Technical Stack (2025)</h2>
+
+<h3 id="toc_3">Foundation</h3>
+
+<ul>
+<li><strong>Large-context multimodal models</strong> – Gemini 2 sports a 2 M-token window; GPT-4o family holds at 128 K. <a href="https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/">https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/</a><br></li>
+<li><strong>Open weights</strong> – OpenAI <strong>gpt-oss 20B/120B</strong> land on Databricks under Apache-2.0, easing on-prem fine-tunes. <a href="https://www.databricks.com/blog/introducing-openais-new-open-models-databricks">https://www.databricks.com/blog/introducing-openais-new-open-models-databricks</a></li>
+</ul>
+
+<h3 id="toc_4">Data Plane</h3>
+
+<ul>
+<li>Vector + hybrid search dominate retrieval; RAG is the default grounding pattern.<br></li>
+<li>Prompts, embeddings, tool calls flow into existing observability stacks to satisfy M-25-21 audit needs.</li>
+</ul>
+
+<hr>
+
+<h2 id="toc_5">High-Yield Use Cases</h2>
+
+<ol>
+<li><strong>Doc ↔ Vision fusion</strong> – Cross-check claim photos against policy PDFs before adjuster review (P&amp;C insurers lose $122 B to fraud yearly). <a href="https://www.propertycasualty360.com/2025/04/24/insurance-fraud-ranks-second-for-costliest-white-collar-crimes/">https://www.propertycasualty360.com/2025/04/24/insurance-fraud-ranks-second-for-costliest-white-collar-crimes/</a><br></li>
+<li><strong>Realtime field agents</strong> – Stream outage video; agent drafts work order, books parts, updates ERP.<br></li>
+<li><strong>Multimodal exec dashboards</strong> – Blend SCADA tables with drone imagery for plain-language outage summaries.<br></li>
+<li><strong>Synthetic media at scale</strong> – Auto-generate SKU photos &amp; copy; early adopters report double-digit CTR lifts.</li>
+</ol>
+
+<hr>
+
+<h2 id="toc_6">Implementation Checklist</h2>
+
+<ul>
+<li><strong>Start narrow</strong> – Pick one measurable pain-point (e.g., image + text triage) and publish ROI.<br></li>
+<li><strong>Embed observability</strong> – Log every model call; feed into security telemetry.<br></li>
+<li><strong>Map to policy</strong> – Classify each use case against M-25-21 risk tiers; prep impact docs early.<br></li>
+<li><strong>Surface overrides</strong> – UI must expose model rationale and allow one-click human reversal for regulated decisions.</li>
+</ul>
+
+<hr>
+
+<h2 id="toc_7">What’s Next</h2>
+
+<p>Open-weight multimodal models and low-latency edge NPUs will push analytics closer to cameras and drones, cutting bandwidth while keeping data in-house. First movers lock in compound gains as feedback loops harden. Decision: <strong>pilot now or play catch-up later</strong>.
+```</p>
+    
 </body>
 </html>
