@@ -1,6 +1,10 @@
 # Relantic Radar: When OpenAI Fires Your Favorite Coworker
 
-Last night, your AI enterprise was humming along, all green checks and happy logs. This morning? Your workflows are all broken. OpenAI's much-hyped GPT-5 launch didn't just introduce a new, more powerful tool; it unceremoniously pulled the plug on the very models many development teams had come to treat as indispensable colleagues. There was no farewell coffee, no hand-off email, just a line in a changelog announcing their departure. As one user on [Reddit](https://www.reddit.com/r/agi/comments/1mkbb1r/am_i_the_only_one_enraged_that_openai_replaced/) put it, "I was really looking forward to the release of GPT5 and I was caught by surprise to see that a corporation would literally remove every single available model overnight, with absolutely no prior warning."
+Last night, your AI enterprise was humming along, all green checks and happy logs. This morning? Your workflows are all broken. OpenAI's much-hyped GPT-5 launch didn't just introduce a new, more powerful tool; it unceremoniously pulled the plug on the very models many development teams had come to treat as indispensable colleagues. There was no farewell coffee, no hand-off email, just a line in a changelog announcing their departure. 
+
+As one user on [Reddit](https://www.reddit.com/r/agi/comments/1mkbb1r/am_i_the_only_one_enraged_that_openai_replaced/) put it, "I was really looking forward to the release of GPT5 and I was caught by surprise to see that a corporation would literally remove every single available model overnight, with absolutely no prior warning."
+
+Another user [mentioned](https://www.reddit.com/r/ChatGPT/comments/1mkim8h/gpt5_is_a_disaster/), "GPT-4o wasn’t perfect, but it felt alive. Now it’s like they replaced your favorite coffee shop with a vending machine.” 
 
 ## What Actually Changed
 
