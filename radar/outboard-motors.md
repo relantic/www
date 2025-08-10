@@ -1,10 +1,10 @@
-### **Outboard Motors for Your Enterprise Boat: Riding the AI Wave with LLM APIs**
+# Relantic Radar: Outboard Motors for Your Enterprise Boat: Riding the AI Wave with LLM APIs
 
 In the race to integrate artificial intelligence, it’s helpful to think of your enterprise product as a boat. The hull, navigation, and onboard systems are the core application you build and own. The Large Language Model (LLM) API, however, is your outboard motor. It delivers immense power, can be swapped out as technology evolves, and is never truly part of your hull.
 
 This analogy is more than just a clever comparison; it’s a strategic framework for building resilient, future-proof AI applications.
 
------
+
 
 #### **Why the Analogy Fits**
 
