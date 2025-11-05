@@ -8,6 +8,24 @@
     <meta property="og:image" content="relantic.png" />
     <link rel="icon" type="image/png" href="favicon.ico" />
     <style type="text/css">
+
+      
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 20%}
+    50%{background-position:100% 81%}
+    100%{background-position:0% 20%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 20%}
+    50%{background-position:100% 81%}
+    100%{background-position:0% 20%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 20%}
+    50%{background-position:100% 81%}
+    100%{background-position:0% 20%}
+}
         body {
             font-family: Helvetica, arial, sans-serif;
             font-size: 14px;
@@ -17,7 +35,7 @@
             background-color: #fff;
         }
         .hero {
-            background-color: #000;
+            
             color: #ccc;
             font-family: "Courier New", Courier, "Lucida Console", monospace;
             font-size: 14pt;
@@ -27,6 +45,13 @@
             justify-content: center;
             text-align: center;
             padding: 10px 10px;
+            
+             background: linear-gradient(275deg, #49136e, #260045, #41005a);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 6s ease infinite;
+    -moz-animation: AnimationName 6s ease infinite;
+    animation: AnimationName 6s ease infinite;
         }
         .hero .blink {
             animation: blink 1s steps(1, start) infinite;
